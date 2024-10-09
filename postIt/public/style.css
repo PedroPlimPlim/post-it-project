@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: white;
+  }
+  
+  #board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .post-it {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    cursor: grab;
+    position: absolute;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .post-it.yellow {
+    background-color: #ffeb3b; 
+  }
+  
+  .post-it.pink {
+    background-color: #ff69b4; 
+  }
+  
+  .post-it.green {
+    background-color: #98fb98; 
+  }
+  
+  .post-it.blue {
+    background-color: #87ceeb; 
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    background-color: transparent;
+  }
+  
